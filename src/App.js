@@ -6,6 +6,7 @@ import Inicio from './components/pages/Inicio';
 import Ventas from './components/pages/Ventas';
 import Productos from './components/pages/Productos';
 
+
 function App() {
   return (
     <div className="App">

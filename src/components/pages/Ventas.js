@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
-import { Table } from 'react-bootstrap';
+import  Table from "react-bootstrap/Table";
 import '../../App.css';
+import  SalesService  from '../../service/SalesService';
 import FooterComp from '../FooterComp';
 
 class Ventas extends Component {
+   
+        
+    
     render() {
         return (
             <div>
                 <div className='Table'>
+                    
                     <Table striped bordered hover variant="dark">
                         <thead>
                             <tr>
@@ -45,7 +50,7 @@ class Ventas extends Component {
                                 <td>@twitter</td>
                             </tr>
                         </tbody>
-                    </Table>
+                    </Table> 
 
                 </div>
                 <FooterComp />
@@ -53,5 +58,7 @@ class Ventas extends Component {
         );
     }
 }
+
+
 
 export default Ventas;
